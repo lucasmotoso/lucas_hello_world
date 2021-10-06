@@ -4,6 +4,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  text-decoration:none
 }
 
 *, *:before, *:after {
@@ -17,6 +18,14 @@ body {
   line-height: 1.5;
   padding: 2em;
   text-align: center;
+  text-decoration:none;
+  border: 5px solid blue;
+  border-radius:20px;
+  background-image: url('https://wallpaper.dog/large/5486501.png');
+  background-size:cover;
+  background-position: center;
+
+  
   
 }
 
@@ -42,7 +51,14 @@ h1:hover{
 
 p{
   text-align: justify;
-  font-size:26px;
+  font-size:22px;
+  color:white;
+  background-color:black;
+  border: 1px solid white;
+  border-radius: 20px;
+  box-shadow: 0 10px 10px blue;
+  padding:15px
+
 }
 
 img{
