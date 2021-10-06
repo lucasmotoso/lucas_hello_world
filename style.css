@@ -17,6 +17,7 @@ body {
   line-height: 1.5;
   padding: 2em;
   text-align: center;
+  
 }
 
 /* images and videos max out at full width */
@@ -35,13 +36,20 @@ h1{
 }
 
 h1:hover{
-  opacity:30%
+  opacity:80%;
+  box-shadow: 0 10px 10px black;
 }
 
 p{
   text-align: justify;
+  font-size:26px;
 }
 
 img{
   border-radius:80px;
+}
+
+img:hover{
+    opacity:80%;
+    box-shadow: 0 10px 10px black;
 }
