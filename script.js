@@ -2,3 +2,5 @@
     to your site with Javascript */
 
 console.log("Hello, world!");
+
+window.alert('Olá pessoal! Seja bem vindos!')
